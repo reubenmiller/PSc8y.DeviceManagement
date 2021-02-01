@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <Type>
+    <Name>application/vnd.com.nsn.cumulocity.customDevice+json</Name>
+    <Members>
+      <ScriptProperty>
+        <Name>getChildDevices</Name>
+        <GetScriptBlock>
+          $this.childDevices.references.managedObject
+        </GetScriptBlock>
+      </ScriptProperty>
+    </Members>
+  </Type>
+</Types>
